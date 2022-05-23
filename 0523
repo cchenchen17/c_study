@@ -1,0 +1,158 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <string.h>
+#define MA =10000；
+enum sex 
+{
+	male=-1,
+	female,
+	secret
+ };
+
+//int main()
+//{
+//	int b = 9;
+//	printf("b=%d\n", b);
+//
+//	return 0;
+//}
+//
+//int main()
+//{
+//	int b = 9;
+//	printf("b=%d\n", b);
+//
+//	return 0;
+//}
+
+//int main()
+//{
+//	/*const int num = 90;
+//		printf("%d", num);*/
+//
+//	enum sex q = male;
+//	printf("%d\n", male);
+//	printf("%d\n", female);
+//	printf("%d\n", female);
+//	printf("%d\n", male);
+//	printf("%d\n", secret);
+//	return 0;
+//}
+
+	///*char arr[] = "chow bitch";*/
+	//char arr[] = "abc";
+	//char arr2[] = { 'a','b','c','\0'};
+	//printf("%s\n", arr);
+	//printf("%s\n", arr2);
+	//int len = strlen(arr);
+	//printf("%d\n", len);
+	//printf("%d\n", strlen(arr2));
+	//printf("%d\n", strlen(arr2));
+
+//int main()
+//{
+//	printf("rfejhwo\\-//:fjsp");
+//	printf("\n\?\?)");
+//	printf("\n%c", '\'');
+//	printf("\n%c", '\'');
+//	printf("\n%s", "n");
+//	printf("\a\n%s", "n");
+//			
+//
+//	return 0; 
+//}
+//
+//int main()
+//{
+//
+//	//printf("%c\n",'\170');
+//	//printf("%c\n",'\x30');
+//	printf("%d\n",strlen("a:\\test\328\test.c"));
+//
+//
+//	return 0;
+//}
+//
+//int main()
+//{
+//	int input = 0;
+//	printf("if study hard?\n");
+//	scanf("%d\n", &input);
+//	
+//	if (input == 1)
+//		printf("goodgoodoffer\n");
+//	else
+//		printf("卖红薯\n");
+//	return 0;
+//}
+
+
+
+//while 循环 if语句
+//int main() 
+//{
+//	int line = 1;
+//	
+//	while (line < 30000)
+//	{
+//		printf("第%d行代码\n", line);
+//		line++;
+//	}
+//	if (line == 30000)
+//		printf("good good day good good offer");
+//	return 0;
+//}
+//
+//
+
+//函数
+// int Add(int x, int y)
+// {
+//	 int z = 0;
+//	 z = x + y;
+//	 return z;
+//
+// }
+//int main()
+//{
+//	int num1 = 0;
+//	int num2 = 0;
+//	scanf("%d %d", &num1, &num2);
+//	int sum = Add(num1, num2);
+//	printf("%d", sum);
+//	return 0;
+//
+////}
+//
+// 
+// 
+// 
+////数组
+//
+//int main()
+//{
+//	/*int arr[10] = { 1,2,53,52,23,42,6,3,63,31 };
+//	int i = 0;
+//	while (i < 10)
+//	{
+//		printf("%d\n", arr[i]);
+//		i++;
+//	}*/
+//	int a = 90;
+//	int b = a << 1;
+//	printf("%d\n", b);
+//	return 0;
+//}
+
+
+
+
+int main()
+{
+	int arr[8] = { 3,452,14,14,14,234,132,321 };
+	printf("%d\n", sizeof(arr[8]));
+	printf("%d\n", sizeof(arr));
+	int size = sizeof(arr) / sizeof(arr[4]);
+	printf("%d\n", size);
+	return 0;
+}
