@@ -1,0 +1,73 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>; 
+//int main()
+//{
+//	int h = 0;
+//	int q = ++h;
+//
+//	printf("%d\n %d\n  ", q,h );
+////	int w = h++;
+////	printf("%d\n %d\n  ",w,h );
+////
+////	return 0;
+////}
+//
+//int main()
+//{
+//	//int a = 0;
+//	//int y = 3;
+//	//int c = a && y;
+//	////printf("%d\n", c);
+//
+//	//int a = 0;
+//	//int y = 3;
+//	//int c = a || y;
+//	//printf("%d\n", c);
+//
+//	int a = 3;
+//	int s = 9;
+//	int max = 0;
+//	max = a > s ? a : s;
+//	printf("%d\n", max);
+//
+//
+//	return 0;
+//}
+
+//void test()
+//{
+//	static int a = 1;
+//	a++;
+//	printf("%d\n", a);
+//}
+//extern int wo;
+//int main()
+//{
+//	int i = 0;
+//	while (i < 10)
+//	{
+//		test();
+//		i++;
+////	}
+////	printf("%d\n", wo);
+////	return 0;
+////}
+//int main()
+//{
+//	int a = 70;
+////	printf("%p\n", &a);
+////	return 0;
+////}
+struct Stu
+{
+	char name[20];
+	float age;
+	double score;
+};
+int main()
+{
+	struct Stu kk = { "uuy",20 , 90 };
+	printf("%s\n %d\n %lf\n", kk.name, kk.age, kk.score);
+
+	return 0;
+}
